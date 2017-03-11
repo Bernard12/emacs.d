@@ -31,7 +31,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (magit cmake-font-lock cmake-ide cmake-mode cmake-project rainbow-delimiters rainbow-identifiers smart-tab company-jedi company-irony-c-headers company-irony use-package dashboard ido-ubiquitous helm-flycheck flycheck company)))
+    (magithub magit cmake-font-lock cmake-ide cmake-mode cmake-project rainbow-delimiters rainbow-identifiers smart-tab company-jedi company-irony-c-headers company-irony use-package dashboard ido-ubiquitous helm-flycheck flycheck company)))
  '(vc-annotate-background "#1f2124")
  '(vc-annotate-color-map
    (quote
