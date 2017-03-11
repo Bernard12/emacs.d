@@ -9,6 +9,7 @@
 (load-file "~/.emacs.d/rc/dashboard.el")
 (load-file "~/.emacs.d/rc/irony.el")
 (load-file "~/.emacs.d/rc/cmake.el")
+(load-file "~/.emacs.d/rc/magit.el")
 ;;(load-file "~/.emacs.d/rc/jedi.el")
 
 (setq-default c-basic-offset 4)

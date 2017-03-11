@@ -1,17 +1,10 @@
 ;;(rc/require 'company)
-(use-package company-irony
-  :ensure t
-  )
-(use-package company-irony-c-headers
-  :ensure t
-  )
-(use-package company-jedi
-  :ensure t
-  )
+(use-package company-irony)
+(use-package company-irony-c-headers)
+(use-package company-jedi)
 
 
 (use-package company
-  :ensure t
   :bind (("C-c C-/" . company-complete))
   :config
   (global-company-mode)
