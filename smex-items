@@ -1,0 +1,22 @@
+
+;; ----- smex-history -----
+(
+ profiler-report
+ c++-mode
+ load-file
+ profiler-start
+ show-paren-mode
+ check-parens
+ package-list-packages
+)
+
+;; ----- smex-data -----
+(
+ (profiler-start . 3)
+ (profiler-report . 3)
+ (load-file . 7)
+ (package-list-packages . 1)
+ (check-parens . 1)
+ (show-paren-mode . 1)
+ (c++-mode . 3)
+)

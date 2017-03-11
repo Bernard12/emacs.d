@@ -1,0 +1,8 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.6.3)
+PROJECT("Ivan DA Project")
+set(CMAKE_CXX_STANDARD 14)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -O2 -pg")
+set(SOURCE_FILES kp.cpp shingling.cpp shingling.hpp)
+set(CMAKE_BUILD_TYPE DEBUG)
+add_executable(DAKP ${SOURCE_FILES})

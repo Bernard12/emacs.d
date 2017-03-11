@@ -1,0 +1,3 @@
+(use-package ycmd
+  :config
+  (set-variable ycmd-server-command '("python" "~/.emacs.d/elpa/ycmd-20170227.2341"))

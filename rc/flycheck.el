@@ -1,5 +1,3 @@
-(require 'flycheck)
-
 ;;; Code:
 (defun enable-flycheck()
   (interactive)
@@ -20,6 +18,7 @@
 
 (defun setGCCchecker()
   (flycheck-select-checker 'c/c++-gcc))
+(use-package helm-flycheck)
 
 (use-package flycheck
   :config
@@ -32,4 +31,5 @@
                   (reusable-frames . visible-)
                   (window-height   . 0.20)))
   (add-hook 'c++-mode-hook #'setGCCchecker)
-  (add-hook 'c-mode-hook #'setGCCchecker))
+  (add-hook 'c-mode-hook #'setGCCchecker)
+  (add-hook 'python-mode-hook #'enable-flycheck))

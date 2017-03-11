@@ -1,0 +1,158 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("./shingling.hpp" include nil nil [1 27])
+            ("KShingle" function
+               (:constructor-flag t
+                :parent "KShingle"
+                :arguments 
+                  ( ("str" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [48 71])
+                    ("slice" variable (:type "int") (reparse-symbol arg-sub-list) [71 81]))                  
+                :type ("KShingle" type (:type "class") nil nil))
+                nil [29 220])
+            ("KShingle" function
+               (:constructor-flag t
+                :parent "KShingle"
+                :arguments 
+                  ( ("strings" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("std::string" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [241 281])
+                    ("slice" variable (:type "int") (reparse-symbol arg-sub-list) [281 291]))                  
+                :type ("KShingle" type (:type "class") nil nil))
+                nil [222 491])
+            ("printShingls" function
+               (:parent "KShingle"
+                :type "void")
+                nil [493 648])
+            ("getObjectSet" function
+               (:methodconst-flag t
+                :parent "KShingle"
+                :type ("std::set" type
+                     (:template-specifier 
+                        ( ("std::string" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [650 726])
+            ("contains" function
+               (:methodconst-flag t
+                :parent "KShingle"
+                :arguments 
+                  ( ("item" variable
+                       (:reference 1
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [752 770]))                  
+                :type "bool")
+                nil [728 815])
+            ("similarity" function
+               (:parent "KShingle"
+                :arguments 
+                  ( ("other" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("KShingle" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [845 867]))                  
+                :type "double")
+                nil [817 1375]))          
+      :file "shingling.cpp"
+      :pointmax 1376
+      :fsize 1375
+      :lastmodtime '(22718 57084 260833 868000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("KSHINGL_HPP" variable (:constant-flag t) nil [29 40])
+            ("iostream" include (:system-flag t) nil [41 60])
+            ("set" include (:system-flag t) nil [61 75])
+            ("vector" include (:system-flag t) nil [76 93])
+            ("algorithm" include (:system-flag t) nil [94 114])
+            ("KShingle" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [132 139])
+                    ("KShingle" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("str" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [153 176])
+                            ("slice" variable (:type "int") (reparse-symbol arg-sub-list) [176 186]))                          
+                        :type ("KShingle" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [144 187])
+                    ("KShingle" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("strings" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("std::string" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [201 241])
+                            ("slice" variable (:type "int") (reparse-symbol arg-sub-list) [241 251]))                          
+                        :type ("KShingle" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [192 252])
+                    ("printShingls" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [257 277])
+                    ("similarity" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("other" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type ("KShingle" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [300 322]))                          
+                        :type "double")
+                        (reparse-symbol classsubparts) [282 323])
+                    ("getObjectSet" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :type ("std::set" type
+                             (:template-specifier 
+                                ( ("std::string" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [328 371])
+                    ("private" label nil (reparse-symbol classsubparts) [372 380])
+                    ("st" variable (:type ("std::set" type
+                         (:template-specifier 
+                            ( ("std::string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [385 410])
+                    ("k" variable (:type "int") (reparse-symbol classsubparts) [415 421]))                  
+                :type "class")
+                nil [115 424]))          
+      :file "shingling.hpp"
+      :pointmax 433
+      :fsize 475
+      :lastmodtime '(22717 49498 943843 588000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("KSHINGL_HPP")
+          )
+))
+  :file "!home!ivan!Person!labs!da!KP!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

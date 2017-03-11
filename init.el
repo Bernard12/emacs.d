@@ -8,6 +8,8 @@
 (load-file "~/.emacs.d/rc/ido.el")
 (load-file "~/.emacs.d/rc/dashboard.el")
 (load-file "~/.emacs.d/rc/irony.el")
+(load-file "~/.emacs.d/rc/cmake.el")
+;;(load-file "~/.emacs.d/rc/jedi.el")
 
 (setq-default c-basic-offset 4)
 (setq backup-directory-alist `((".*" . "~/.emacs.d/backups")))
@@ -28,7 +30,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (company-ycmd company-irony-c-headers company-irony use-package dashboard company-jedi ido-ubiquitous helm-flycheck flycheck company)))
+    (magit cmake-font-lock cmake-ide cmake-mode cmake-project rainbow-delimiters rainbow-identifiers smart-tab company-jedi company-irony-c-headers company-irony use-package dashboard ido-ubiquitous helm-flycheck flycheck company)))
  '(vc-annotate-background "#1f2124")
  '(vc-annotate-color-map
    (quote

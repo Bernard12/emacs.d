@@ -1,0 +1,77 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/ivan/Person/labs/da/" . "KP/")
+ ("/home/ivan/CLionProjects/DA6/" . "lab6/")
+ ("/home/ivan/CLionProjects/" . "DA6/")
+ ("/home/" . "ivan/")
+ ("/" . "home/")
+ ("/home/ivan/Person/labs/" . "da/")
+ ("/home/ivan/Person/" . "labs/")
+ ("/home/ivan/" . ".emacs.d/")
+ ("/home/ivan/.emacs.d/" . "rc/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/ivan/.emacs.d/rc/"
+ "/home/ivan/.emacs.d/"
+ "/home/ivan/Person/labs/da/KP/"
+ "/home/ivan/Person/labs/Lab1/"
+ "/home/ivan/CLionProjects/DA6/"
+ "/home/ivan/CLionProjects/DA6/lab6/"
+ "/home/ivan/.emacs.d/themes/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "rc.el"
+ "whitespace.el"
+ "flycheck.el"
+ "init.el"
+ "test.cpp"
+ "dashboard.el"
+ "company-mode.el"
+ "appereance.el"
+ "Number.cpp"
+ "main.cpp"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/ivan/.emacs.d/rc/" (22716 4014 424934 197000) "ido.el" "../" "ido.el~" "ownfunc.el" "rc.el~" "appereance.el~" "themes.el~" "company-mode.el" "rc.el" "whitespace.el" "dashboard.el~" "./" "dashboard.el" "irony.el~" "flycheck.el" "ownfunc.el~" "flycheck.el~" "irony.el" "company-mode.el~" "appereance.el")
+
+ ("/home/ivan/.emacs.d/" (22716 5209 937467 196000) "themes/" "init.el~" "rc/" "smex-items" "ido.last~" "../" "backups/" ".#ido.last" "init.el" "#init.el#" "ido.last" "./" "elpa/" "recentf" "auto-save-list/" "recentf~")
+
+ ("/home/ivan/Person/labs/da/KP/" (22715 61423 807019 635000) "test.cpp~" "../" "test.cpp" "./")
+
+ ("/home/ivan/Person/labs/da/" (22715 60715 756909 565000) "../" "KP/" "./")
+
+ ("/home/ivan/Person/labs/" (22715 60711 826926 666000) "../" "os/" "da/" "./" "test/")
+
+ ("/home/ivan/" (22715 60610 397368 341000) "PhpstormProjects/" ".Xclients" ".bashrc~" ".java/" ".dmrc" ".PhpStorm2016.3/" ".xsession-errors.old" ".mtab.fuseiso" ".pki/" ".Xauthority" ".toprc" ".local/" "PlayOnLinux's virtual drives/" ".steampath" ".extend.xinitrc" ".extend.bashrc" ".ICEauthority" ".m2/" ".python_history" ".npm/" ".macromedia/" "../" "java_error_in_CL.hprof" "Person/" ".mozilla/" ".adobe/" ".nv/" ".w3m/" ".steampid" "Pictures/" ".viminfo" ".Xresources" ".Toolbox/" ".config/" "Documents/" ".esd_auth" ".icons/" ".minecraftonly/" ".PyCharm2016.3/" ".wget-hsts" ".bashrc" ".emacs.d/" ".dir_colors" ".thumbnails/" "Templates/" ".tarantool_history" ".cache/" ".gradle/" ".xfce4-session.verbose-log" ".gitconfig" "Music/" ".QtWebEngineProcess/" ".thunderbird/" ".bash_history" ".PlayOnLinux/" ".wine/" ".gimp-2.8/" ".gnome/" ".python_history-02640.tmp" "World-of-Warcraft-Setup.exe" "CLionProjects/" ".node_repl_history" ".profile" "Videos/" ".CLion2016.3/" "Downloads/" "./" ".steam/" "IdeaProjects/" ".IntelliJIdea2016.3/" ".gnupg/" ".xsession-errors" ".bash_logout" ".bash_profile" ".guayadeque/" "prefix32/" "Desktop/" "Public/" ".xinitrc" ".racket/" ".xprofile" ".tmux.conf" "PycharmProjects/" ".xfce4-session.verbose-log.last" ".xsession")
+
+ ("/home/ivan/Person/labs/Lab1/" (22715 59228 413430 50000) "test.txt" "main.cpp" "cmake-build-debug/" "Makefile" "../" "Number.h" "lab" ".idea/" "res.txt" "._.DS_Store" "CMakeLists.txt" "./" "Number.cpp~" ".DS_Store" "main.cpp~" "Number.cpp" "._test.txt" "#Number.cpp#")
+
+ ("/home/ivan/CLionProjects/DA6/lab6/" (22713 52604 929763 63000) "main.cpp" "TNumber.h" "Makefile" "../" "TNumber.cpp" "./" "Makefile~" "TNumber.cpp~")
+
+ ("/home/ivan/CLionProjects/DA6/" (22713 56128 408307 4000) "tests" "main.cpp" "TNumber.h" "lab6/" "cmake-build-debug/" "../" ".gitignore" ".idea/" "lab6.tar" ".git/" "testo" "res" "TNumber.cpp" "CMakeLists.txt" "./" "test")
+
+ ("/home/ivan/CLionProjects/" (22700 41465 780289 843000) "DA6/" "codeforces/" "../" "./")
+
+ ("/home/" (22696 23068 866302 728000) "../" "./" "ivan/")
+
+ ("/home/ivan/Person/games/" (22705 23211 881673 389000) "df_linux/" "../" "./" "mf/")
+
+ ("/home/ivan/Person/" (22707 1179 719524 485000) "games/" "opt/" "../" "labs/" "./")
+
+ ("/home/ivan/.emacs.d/themes/" (22712 36089 503018 589000) "../" "flatland-theme.el" "ample-flat-theme.el" "./")
+
+ ("/home/ivan/.emacs.d/themes/flatland/" (22712 34998 248479 968000) "../" "flatland-theme.el~" "flatland-theme.el" "./")
+
+ ("/home/ivan/.emacs.d/flatland/" (22712 34854 542516 512000) "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

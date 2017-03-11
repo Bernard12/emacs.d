@@ -1,0 +1,19 @@
+#ifndef KSHINGL_HPP
+#define KSHINGL_HPP
+#include <iostream>
+#include <set>
+#include <vector>
+#include <algorithm>
+class KShingle{
+ public:
+    KShingle(const std::string& str,int slice);
+    KShingle(const std::vector<std::string>& strings,int slice);
+    void printShingls();
+    double similarity(const KShingle* other);
+    std::set<std::string> getObjectSet() const;
+private:
+    std::set<std::string> st;
+    int k;
+};
+
+#endif
