@@ -4,6 +4,7 @@
          ("C-c l" . magit-commit-add-log)
          ("C-c u" . magit-push-popup)
          ("C-c d" . magit-diff-buffer-file)))
-
-(use-package magithub
-  :after magit)
+;(use-package magithub
+;  :after magit
+;  :config
+;  (magithub-feature-autoinject t))

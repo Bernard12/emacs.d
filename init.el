@@ -12,9 +12,11 @@
 (load-file "~/.emacs.d/rc/magit.el")
 ;;(load-file "~/.emacs.d/rc/jedi.el")
 
+
+(setq fci-rule-color "darkblue")
 (setq-default c-basic-offset 4)
 (setq backup-directory-alist `((".*" . "~/.emacs.d/backups")))
-;;;(magithub-feature-autoinject t)
+
 ;;;(setq  debug-on-quit 0)
 
 (custom-set-variables
@@ -35,11 +37,12 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (magithub magit cmake-font-lock cmake-ide cmake-mode
-              cmake-project rainbow-delimiters rainbow-identifiers
-              smart-tab company-jedi company-irony-c-headers
-              company-irony use-package dashboard ido-ubiquitous
-              helm-flycheck flycheck company)))
+    (fill-column-indicator pomidor magit cmake-font-lock
+                           cmake-ide cmake-mode cmake-project
+                           rainbow-delimiters rainbow-identifiers smart-tab
+                           company-jedi company-irony-c-headers company-irony
+                           use-package dashboard ido-ubiquitous helm-flycheck
+                           flycheck company)))
  '(vc-annotate-background "#1f2124")
  '(vc-annotate-color-map
    (quote
