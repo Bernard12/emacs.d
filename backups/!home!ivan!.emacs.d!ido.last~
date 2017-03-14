@@ -8,18 +8,19 @@
  ("/home/ivan/CLionProjects/" . "DA6/")
  ("/home/" . "ivan/")
  ("/" . "home/")
- ("/home/ivan/Person/labs/" . "python/")
+ ("/home/ivan/Person/labs/" . "da/")
  ("/home/ivan/Person/" . "labs/")
- ("/home/ivan/" . ".emacs.d/")
+ ("/home/ivan/" . "Person/")
  ("/home/ivan/.emacs.d/" . "rc/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/ivan/.emacs.d/"
- "/home/ivan/.emacs.d/rc/"
- "/home/ivan/Person/labs/python/kd-tree/"
  "/home/ivan/Person/labs/da/KP/"
+ "/home/ivan/.emacs.d/rc/"
+ "/home/ivan/Person/labs/da/lab7/"
+ "/home/ivan/.emacs.d/"
+ "/home/ivan/Person/labs/python/kd-tree/"
  "/home/ivan/Person/labs/"
  "/home/ivan/Person/labs/Lab1/"
  "/home/ivan/CLionProjects/DA6/"
@@ -29,35 +30,37 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "shingling.hpp"
+ "shingling.cpp"
+ "pomidoro.el"
+ "main.cpp"
+ "test"
+ "magit.el"
  "init.el"
- "jedi.el"
- "company-mode.el"
- "main.py"
  "kp.cpp"
- "ycmd.el"
- "refactor.el"
- "rc.el"
- "irony.el"
- "flycheck.el"
+ "CMakeLists.txt"
+ "CMakeCache.txt"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ivan/Person/labs/python/kd-tree/" (22718 62036 22712 572000) "main.py" "../" "./")
+ ("/home/ivan/Person/labs/da/KP/" (22727 2999 907918 675000) "DAKP" "Ivan DA Project.cbp" "Makefile" "../" "CMakeFiles/" "shingling.cpp" ".gitignore" ".idea/" ".git/" "CMakeCache.txt" "test.cpp" "CMakeLists.txt" "shingling.hpp" "./" "_config.yml" "cmake_install.cmake" "kp.cpp")
 
- ("/home/ivan/.emacs.d/" (22718 62022 809451 504000) "themes/" "init.el~" "rc/" "smex-items" "ido.last~" "../" "backups/" ".gitignore" "init.el" ".git/" "README.md" "ido.last" "ede-projects.el" "./" "elpa/" "recentf" "semanticdb/" "auto-save-list/" "irony/" "ac-comphist.dat" "recentf~")
+ ("/home/ivan/" (22726 65123 776058 452000) "PhpstormProjects/" ".Xclients" ".bashrc~" ".wine32/" ".java/" ".dmrc" ".PhpStorm2016.3/" ".xsession-errors.old" ".mtab.fuseiso" ".pki/" ".Xauthority" ".toprc" ".local/" "PlayOnLinux's virtual drives/" ".steampath" ".extend.xinitrc" ".pylint.d/" ".extend.bashrc" ".ICEauthority" ".m2/" ".python_history" ".npm/" ".macromedia/" "../" "#*message*-20170311-201445#" "java_error_in_CL.hprof" "Person/" ".mozilla/" ".adobe/" ".nv/" ".w3m/" ".steampid" "Pictures/" ".viminfo" ".Xresources" ".Toolbox/" ".config/" "Documents/" ".esd_auth" ".icons/" ".minecraftonly/" ".PyCharm2016.3/" ".wget-hsts" ".bashrc" ".emacs.d/" ".dir_colors" ".thumbnails/" "Templates/" ".tarantool_history" ".cache/" ".gradle/" ".xfce4-session.verbose-log" ".gitconfig" "Music/" ".QtWebEngineProcess/" ".thunderbird/" ".bash_history" ".gstreamer-0.10/" ".PlayOnLinux/" ".wine/" ".gimp-2.8/" ".gnome/" ".python_history-02640.tmp" ".emagui-get-primary-selection: Wrong number of argumentscs.d/" "World-of-Warcraft-Setup.exe" "CLionProjects/" ".node_repl_history" ".profile" "Videos/" ".CLion2016.3/" "Downloads/" "./" ".steam/" "IdeaProjects/" ".IntelliJIdea2016.3/" ".gnupg/" ".xsession-errors" ".bash_logout" ".bash_profile" ".guayadeque/" "prefix32/" "Desktop/" "Public/" ".xinitrc" ".racket/" ".xprofile" ".tmux.conf" "PycharmProjects/" ".xfce4-session.verbose-log.last" ".xsession")
 
- ("/home/ivan/.emacs.d/rc/" (22718 61173 190823 128000) "ido.el" "ycmd.el" "refactor.el" "../" "company-mode.el" "rc.el" "./" "dashboard.el" "flycheck.el" "cmake.el" "jedi.el" "irony.el" "appereance.el")
+ ("/home/ivan/Person/labs/python/kd-tree/" (22718 62165 808612 563000) "main.py" "../" "./")
+
+ ("/home/ivan/Person/labs/da/lab7/" (22725 45671 818830 939000) "main.cpp" "../" ".git/" "res" "./" "test")
+
+ ("/home/ivan/.emacs.d/rc/" (22725 3792 981483 124000) "ido.el" "ycmd.el" "refactor.el" "../" "company-mode.el" "rc.el" "./" "dashboard.el" "flycheck.el" "cmake.el" "jedi.el" "irony.el" "magit.el" "appereance.el")
+
+ ("/home/ivan/.emacs.d/" (22726 49837 605832 528000) "themes/" "init.el~" "rc/" "smex-items" "ido.last~" "../" "backups/" ".gitignore" "init.el" ".git/" "README.md" "ido.last" "ede-projects.el" "./" "elpa/" "recentf" "semanticdb/" "auto-save-list/" "irony/" "ac-comphist.dat" "recentf~")
+
+ ("/home/ivan/Person/labs/da/" (22724 65323 89323 374000) "../" "lab7/" "KP/" "./" "KP (copy 1)/")
 
  ("/home/ivan/Person/labs/python/" (22718 58641 205213 192000) "../" "kd-tree/" "./")
 
  ("/home/ivan/Person/labs/" (22718 58631 998598 540000) "../" "os/" "da/" "python/" "./" "test/")
-
- ("/home/ivan/" (22718 58725 98076 12000) "PhpstormProjects/" ".Xclients" ".bashrc~" ".java/" ".dmrc" ".PhpStorm2016.3/" ".xsession-errors.old" ".mtab.fuseiso" ".pki/" ".Xauthority" ".toprc" ".local/" "PlayOnLinux's virtual drives/" ".steampath" ".extend.xinitrc" ".pylint.d/" ".extend.bashrc" ".ICEauthority" ".m2/" ".python_history" ".npm/" ".macromedia/" "../" "java_error_in_CL.hprof" "Person/" ".mozilla/" ".adobe/" ".nv/" ".w3m/" ".steampid" "Pictures/" ".viminfo" ".Xresources" ".Toolbox/" ".config/" "Documents/" ".esd_auth" ".icons/" ".minecraftonly/" ".PyCharm2016.3/" ".wget-hsts" ".bashrc" ".emacs.d/" ".dir_colors" ".thumbnails/" "Templates/" ".tarantool_history" ".cache/" ".gradle/" ".xfce4-session.verbose-log" ".gitconfig" "Music/" ".QtWebEngineProcess/" ".thunderbird/" ".bash_history" ".PlayOnLinux/" ".wine/" ".gimp-2.8/" ".gnome/" ".python_history-02640.tmp" ".emagui-get-primary-selection: Wrong number of argumentscs.d/" "World-of-Warcraft-Setup.exe" "CLionProjects/" ".node_repl_history" ".profile" "Videos/" ".CLion2016.3/" "Downloads/" "./" ".steam/" "IdeaProjects/" ".IntelliJIdea2016.3/" ".gnupg/" ".xsession-errors" ".bash_logout" ".bash_profile" ".guayadeque/" "prefix32/" "Desktop/" "Public/" ".xinitrc" ".racket/" ".xprofile" ".tmux.conf" "PycharmProjects/" ".xfce4-session.verbose-log.last" ".xsession")
-
- ("/home/ivan/Person/labs/da/KP/" (22718 58599 682118 565000) "../" "CMakeFiles/" "shingling.cpp" ".gitignore" ".idea/" ".git/" "CMakeCache.txt" "test.cpp" "CMakeLists.txt" "shingling.hpp" "./" "cmake_install.cmake" "kp.cpp")
-
- ("/home/ivan/Person/labs/da/" (22717 53228 327661 665000) "../" "KP/" "./" "KP (copy 1)/")
 
  ("/home/ivan/.emacs.d/elpa/" (22716 28822 490729 393000) "diminish-20151215.915/" "rainbow-delimiters-20160430.2358/" "use-package-readme.txt" "s-20160928.636/" "company-0.9.2.signed" "concurrent-20161228.1930/" "flycheck-20170223.247/" "page-break-lines-20161205.2251/" "archives/" "ido-completing-read+-20161211.910/" "f-20161002.800/" "helm-flycheck-20160710.129/" "../" "deferred-20161228.1930/" "wolfram-readme.txt" "company-ycmd-20161026.2337/" "epc-20140609.2234/" "dashboard-20161229.1711/" "company-irony-c-headers-20151018.209/" "irony-20170223.515/" "company-0.9.2/" "rainbow-identifiers-20141102.726/" "ido-ubiquitous-20170211.1432/" "helm-core-20170301.2122/" "smart-tab-20150703.917/" "pkg-info-20150517.443/" "company-irony-20160826.56/" "ycmd-20170227.2341/" "smart-tab-readme.txt" "epl-20150517.433/" "smex-readme.txt" "company-jedi-20151216.1921/" "request-20170131.1747/" "./" "company-c-headers-readme.txt" "request-deferred-20160419.1605/" "bind-key-20161218.1520/" "use-package-20170218.132/" "csv-mode-readme.txt" "async-20170219.942/" "gnupg/" "python-environment-20150310.153/" "dash-20170207.2056/" "rainbow-mode-readme.txt" "ctable-20140304.1659/" "jedi-core-20170121.610/")
 
