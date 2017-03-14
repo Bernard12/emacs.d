@@ -7,7 +7,8 @@
 
 (use-package whitespace
   :config
-  (global-whitespace-mode 1))
+  (global-whitespace-mode 1)
+  (setq whitespace-line-column 100)
 
 (use-package paren
   :config
@@ -35,13 +36,3 @@
   (add-hook 'python-mode-hook 'turnRainbow)
   (add-hook 'emacs-lisp-mode-hook 'turnRainbow))
 
-(use-package fill-column-idndicator
-  :init
-  (setq fci-rule-column 80)
-  (setq fci-rule-color "darkblue")
-  ;(setq fci-rule-width 1)
-  ;(setq fci-rule-color "darkblue")
-  ;(setq fci-rule-character-color "darkblue")
-  :config
-  (add-hook 'c++-mode-hook 'fci-modex)
-  (add-hook 'c-mode-hook 'fci-mode))
