@@ -4,11 +4,12 @@
 (menu-bar-mode 1)
 (setq tab-width 4)
 (setq-default indent-tabs-mode nil)
+(column-number-mode 1)
 
 (use-package whitespace
   :config
   (global-whitespace-mode 1)
-  (setq whitespace-line-column 100)
+  (setq whitespace-line-column 100))
 
 (use-package paren
   :config
@@ -35,4 +36,3 @@
   (add-hook 'c-mode-hook 'turnRainbow)
   (add-hook 'python-mode-hook 'turnRainbow)
   (add-hook 'emacs-lisp-mode-hook 'turnRainbow))
-

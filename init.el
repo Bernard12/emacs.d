@@ -26,15 +26,16 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-names-vector
    ["#26292c" "#ff4a52" "#40b83e" "#f6f080" "#afc4db" "#dc8cc3" "#93e0e3" "#f8f8f8"])
+ '(column-number-mode t)
  '(custom-enabled-themes (quote (ample-flat)))
  '(custom-safe-themes
    (quote
     ("ed317c0a3387be628a48c4bbdb316b4fa645a414838149069210b66dd521733f" "7122873f9ac192e4f2cfafe1679fe6b3db658ac64593efe4bc10c52d7573c6c1" default)))
- '(fci-rule-color "#202325")
+ '(fci-rule-color "#202325" t)
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (pomidor magit cmake-font-lock cmake-ide cmake-mode cmake-project rainbow-delimiters rainbow-identifiers smart-tab company-jedi company-irony-c-headers company-irony use-package dashboard ido-ubiquitous helm-flycheck flycheck company)))
+    (dropdown-list yasnippet pomidor magit cmake-font-lock cmake-ide cmake-mode cmake-project rainbow-delimiters rainbow-identifiers smart-tab company-jedi company-irony-c-headers company-irony use-package dashboard ido-ubiquitous helm-flycheck flycheck company)))
  '(vc-annotate-background "#1f2124")
  '(vc-annotate-color-map
    (quote
