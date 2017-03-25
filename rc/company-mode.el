@@ -1,6 +1,9 @@
 ;;(rc/require 'company)
 (require 'company)
 (require 'company-go)
+(require 'company-irony)
+(require 'company-irony-c-headers)
+(require 'company-jedi)
 
 (use-package company-irony)
 (use-package company-irony-c-headers)

@@ -1,4 +1,5 @@
 
+(require 'irony)
 
 (use-package irony
   :config

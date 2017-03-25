@@ -1,4 +1,5 @@
 ;;; Code:
+(require 'flycheck)
 (defun enable-flycheck()
   (interactive)
   (flycheck-mode 1))

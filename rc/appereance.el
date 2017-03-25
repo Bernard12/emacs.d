@@ -1,5 +1,6 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-
+(require 'whitespace)
+(require 'use-package)
 
 (menu-bar-mode 1)
 (setq tab-width 4)

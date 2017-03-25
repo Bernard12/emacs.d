@@ -1,3 +1,5 @@
+(require 'jedi)
+
 (use-package jedi
   :init
   (setq jedi:server-command
