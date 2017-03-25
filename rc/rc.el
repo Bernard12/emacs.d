@@ -1,8 +1,8 @@
 (require 'package)
 (package-initialize)
 
-(add-to-list 'package-archives
-             '("melpa" . "https://melpa.org/packages/") t)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(load-file "~/.emacs.d/rc/toInstall.el")
 
 (setq user-full-name "Ivan")
 (setq user-mail-address "ivnsimakhin@gmail.com")
