@@ -32,4 +32,5 @@
                   (window-height   . 0.20)))
   (add-hook 'c++-mode-hook #'setGCCchecker)
   (add-hook 'c-mode-hook #'setGCCchecker)
-  (add-hook 'python-mode-hook #'enable-flycheck))
+  (add-hook 'python-mode-hook #'enable-flycheck)
+  (add-hook 'go-mode-hook #'enable-flycheck))

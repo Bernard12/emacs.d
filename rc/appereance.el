@@ -35,4 +35,5 @@
   (add-hook 'c++-mode-hook 'turnRainbow)
   (add-hook 'c-mode-hook 'turnRainbow)
   (add-hook 'python-mode-hook 'turnRainbow)
-  (add-hook 'emacs-lisp-mode-hook 'turnRainbow))
+  (add-hook 'emacs-lisp-mode-hook 'turnRainbow)
+  (add-hook 'go-mode-hook 'turnRainbow))
