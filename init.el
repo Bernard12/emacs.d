@@ -22,6 +22,7 @@
 (load-file "~/.emacs.d/rc/cmake.el")
 (load-file "~/.emacs.d/rc/magit.el")
 (load-file "~/.emacs.d/rc/yasnippets.el")
+(load-file "~/.emacs.d/rc/google.el")
 ;;(load-file "~/.emacs.d/rc/jedi.el")
 
 (setq save-interprogram-paste-before-kill t)
@@ -37,7 +38,11 @@
  '(custom-enabled-themes (quote (ample-flat)))
  '(custom-safe-themes
    (quote
-    ("ed317c0a3387be628a48c4bbdb316b4fa645a414838149069210b66dd521733f" default))))
+    ("ed317c0a3387be628a48c4bbdb316b4fa645a414838149069210b66dd521733f" default)))
+ '(inhibit-startup-screen t)
+ '(package-selected-packages
+   (quote
+    (flycheck-irony google-translate flymake-google-cpplint yasnippet use-package smart-tab rainbow-mode rainbow-identifiers rainbow-delimiters pomidor magithub jedi flycheck dashboard company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -13,13 +13,11 @@
   (setq flycheck-clang-language-standard "c++11")
   (setq flycheck-gcc-language-standard "c++11"))
 
-(defun error ()
-  (interactive)
-  (flycheck-list-errors))
-
 (defun setGCCchecker()
   (flycheck-select-checker 'c/c++-gcc))
-(use-package helm-flycheck)
+
+(defun setClangChecker()
+  (flycheck-select-checker 'c/c++-clang))
 
 (use-package flycheck
   :config
@@ -31,7 +29,7 @@
                   (side            . bottom)
                   (reusable-frames . visible-)
                   (window-height   . 0.20)))
-  (add-hook 'c++-mode-hook #'setGCCchecker)
-  (add-hook 'c-mode-hook #'setGCCchecker)
-  (add-hook 'python-mode-hook #'enable-flycheck)
-  (add-hook 'go-mode-hook #'enable-flycheck))
+  (add-hook 'c++-mode-hook 'setGCCchecker)
+  (add-hook 'c-mode-hook 'setGCCchecker)
+  (add-hook 'python-mode-hook 'enable-flycheck)
+  (add-hook 'go-mode-hook 'enable-flycheck))
