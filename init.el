@@ -37,10 +37,7 @@
  '(custom-enabled-themes (quote (ample-flat)))
  '(custom-safe-themes
    (quote
-    ("ed317c0a3387be628a48c4bbdb316b4fa645a414838149069210b66dd521733f" default)))
- '(package-selected-packages
-   (quote
-    (magithub yasnippet use-package smart-tab rainbow-mode rainbow-identifiers rainbow-delimiters pomidor magit jedi flycheck dashboard company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
+    ("ed317c0a3387be628a48c4bbdb316b4fa645a414838149069210b66dd521733f" default))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
