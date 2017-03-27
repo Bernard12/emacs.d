@@ -18,8 +18,16 @@
     company-irony-c-headers
     company-jedi
     company-go
+    ;; C/C++
     irony
+    irony-eldoc
+    ;; Python
     jedi
+    ;; Go
+    go-mode
+    ;; Rust
+    rust-mode
+    racer
     ;; Dashboard
     dashboard
     ;; Syntax checking

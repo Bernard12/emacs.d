@@ -6,7 +6,7 @@
 ;; You may delete these explanatory comments.
 
 
-;; Added by Package.el.  This must come before configurations of
+;; Added by Paclpkage.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
@@ -23,6 +23,7 @@
 (load-file "~/.emacs.d/rc/magit.el")
 (load-file "~/.emacs.d/rc/yasnippets.el")
 (load-file "~/.emacs.d/rc/google.el")
+(load-file "~/.emacs.d/rc/rust.el")
 ;;(load-file "~/.emacs.d/rc/jedi.el")
 
 (setq save-interprogram-paste-before-kill t)
@@ -42,7 +43,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (flycheck-irony google-translate flymake-google-cpplint yasnippet use-package smart-tab rainbow-mode rainbow-identifiers rainbow-delimiters pomidor magithub jedi flycheck dashboard company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
+    (irony-eldoc flycheck-irony google-translate flymake-google-cpplint yasnippet use-package smart-tab rainbow-mode rainbow-identifiers rainbow-delimiters pomidor magithub jedi flycheck dashboard company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
