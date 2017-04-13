@@ -25,6 +25,8 @@
   (rainbow-delimiters-mode 1)
   (rainbow-identifiers-mode 1))
 
+(use-package super-save)
+
 (use-package rainbow-delimiters
     :config
   (add-hook 'c++-mode-hook 'turnRainbow)

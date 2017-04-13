@@ -19,4 +19,4 @@
   (push 'company-irony company-backends)
   (push 'company-jedi company-backends)
   (push 'company-go company-backends)
-  (push 'company-yasnippet company-backends))
+  (push 'company-racer company-backends))

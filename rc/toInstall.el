@@ -33,6 +33,7 @@
     ;; Syntax checking
     flycheck
     flycheck-irony
+    flycheck-rust
     ;; Google packages
     google-translate
     ;; Git
@@ -41,6 +42,8 @@
     pomidor
     ;; Snippets
     yasnippet
+    ;; Auto-save
+    super-save
     )
   "List of packages needs to be installed at launch")
 

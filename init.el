@@ -43,7 +43,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (irony-eldoc flycheck-irony google-translate flymake-google-cpplint yasnippet use-package smart-tab rainbow-mode rainbow-identifiers rainbow-delimiters pomidor magithub jedi flycheck dashboard company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
+    (super-save flycheck-rust company-racer irony-eldoc flycheck-irony google-translate flymake-google-cpplint yasnippet use-package smart-tab rainbow-mode rainbow-identifiers rainbow-delimiters pomidor magithub jedi flycheck dashboard company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
