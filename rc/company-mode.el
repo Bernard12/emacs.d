@@ -10,7 +10,6 @@
 (use-package company-jedi)
 (use-package company-go)
 
-
 (use-package company
   :bind (("C-c C-/" . company-complete))
   :config
@@ -19,4 +18,5 @@
   (push 'company-irony company-backends)
   (push 'company-jedi company-backends)
   (push 'company-go company-backends)
-  (push 'company-racer company-backends))
+  (push 'company-racer company-backends)
+  (push 'company-irony-c-headers company-backends))
