@@ -17,6 +17,7 @@
     company-irony
     company-irony-c-headers
     company-jedi
+    company-racer
     company-go
     ;; C/C++
     irony
