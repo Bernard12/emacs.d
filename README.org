@@ -1,0 +1,4 @@
+* emacsConfig
+Its my emacs config
+* Dependencies
+[guide to install and config](http://reangdblog.blogspot.com/2015/04/emacs-ide-rust.html)
