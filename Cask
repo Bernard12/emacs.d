@@ -31,3 +31,4 @@
 (depends-on "pomidor")
 (depends-on "yasnippet")
 (depends-on "super-save")
+(depends-on "helm")
