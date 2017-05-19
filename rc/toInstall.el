@@ -45,8 +45,6 @@
     yasnippet
     ;; Auto-save
     super-save
-    ;; Themes
-    tangotango-theme
     )
   "List of packages needs to be installed at launch")
 

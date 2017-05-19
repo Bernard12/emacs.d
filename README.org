@@ -1,4 +1,48 @@
 * emacsConfig
-Its my emacs config
+  Its my emacs config
 * Dependencies
+** Appereance
+   rainbow-delimiters
+   rainbow-identifiers
+** Use-package
+   use-package
+** Cmake tools
+   cmake-ide
+   cmake-font-lock
+   cmake-mode
+   cmake-project
+** Company-autocomplete
+   company
+   company-irony
+   company-irony-c-headers
+   company-jedi
+   company-racer
+   company-go
+** C/C++
+   irony
+   irony-eldoc
+** Python
+   jedi
+** Go
+   go-mode
+** Rust
+   rust-mode
+   racer
+** Dashboard
+   dashboard
+** Syntax checking
+   flycheck
+   flycheck-irony
+   flycheck-rust
+** Google packages
+   google-translate
+** Git
+   magit
+** Time managment
+   pomidor
+** Snippets
+   yasnippet
+** Auto-save
+   super-save
+* Useful links
   [[http://reangdblog.blogspot.com/2015/04/emacs-ide-rust.html][Rust configuration]]
