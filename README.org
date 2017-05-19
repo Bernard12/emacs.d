@@ -7,43 +7,43 @@
 ** Use-package
    - use-package
 ** Cmake tools
-   cmake-ide
-   cmake-font-lock
-   cmake-mode
-   cmake-project
+   - cmake-ide
+   - cmake-font-lock
+   - cmake-mode
+   - cmake-project
 ** Company-autocomplete
-   company
-   company-irony
-   company-irony-c-headers
-   company-jedi
-   company-racer
-   company-go
+   - company
+   - company-irony
+   - company-irony-c-headers
+   - company-jedi
+   - company-racer
+   - company-go
 ** C/C++
-   irony
-   irony-eldoc
+   - irony
+   - irony-eldoc
 ** Python
-   jedi
+   - jedi
 ** Go
-   go-mode
+   - go-mode
 ** Rust
-   rust-mode
-   racer
+   - rust-mode
+   - racer
 ** Dashboard
-   dashboard
+   - dashboard
 ** Syntax checking
-   flycheck
-   flycheck-irony
-   flycheck-rust
+   - flycheck
+   - flycheck-irony
+   - flycheck-rust
 ** Google packages
-   google-translate
+   - google-translate
 ** Git
-   magit
+   - magit
 ** Time managment
-   pomidor
+   - pomidor
 ** Snippets
-   yasnippet
+   - yasnippet
 ** Auto-save
-   super-save
+   - super-save
 * Useful links
   [[http://reangdblog.blogspot.com/2015/04/emacs-ide-rust.html][Rust configuration]]
 

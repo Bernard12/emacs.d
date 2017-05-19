@@ -34,7 +34,10 @@
  '(custom-enabled-themes (quote (ample-flat)))
  '(custom-safe-themes
    (quote
-    ("ed317c0a3387be628a48c4bbdb316b4fa645a414838149069210b66dd521733f" default))))
+    ("ed317c0a3387be628a48c4bbdb316b4fa645a414838149069210b66dd521733f" default)))
+ '(package-selected-packages
+   (quote
+    (yasnippet use-package tangotango-theme super-save smart-tab restclient rainbow-mode rainbow-identifiers rainbow-delimiters racer pomidor magithub jedi irony-eldoc google-translate flycheck-rust flycheck-irony dracula-theme dashboard company-racer company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

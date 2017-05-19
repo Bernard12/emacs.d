@@ -13,3 +13,8 @@
 (defun reloadInit()
   (interactive)
   (load-file "~/.emacs.d/init.el"))
+
+(defun tag()
+  (interactive)
+  (insert "- ")
+  (backward-char 2))
