@@ -1,8 +1,10 @@
 (require 'package)
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
 (package-initialize)
 
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-(load-file "~/.emacs.d/rc/toInstall.el")
+;;(load-file "~/.emacs.d/rc/toInstall.el")
 
 (setq user-full-name "Ivan")
 (setq user-mail-address "ivnsimakhin@gmail.com")
@@ -18,3 +20,10 @@
   (interactive)
   (insert "- ")
   (backward-char 2))
+
+(defun tmp()
+  (interactive)
+  (beginning-of-line)
+  (insert "(depends-on \"")
+  (end-of-line)
+  (insert "\")"))

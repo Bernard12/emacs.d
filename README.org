@@ -1,6 +1,7 @@
 * emacsConfig
   Its my emacs config
-* Dependencies
+* Dependency and stuff
+** Cask install
 ** Appereance
    - rainbow-delimiters
    - rainbow-identifiers
