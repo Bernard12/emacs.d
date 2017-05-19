@@ -3,9 +3,7 @@
 
 (depends-on "rainbow-delimiters")
 (depends-on "rainbow-identifiers")
-
 (depends-on "use-package")
-
 (depends-on "cmake-ide")
 (depends-on "cmake-font-lock")
 (depends-on "cmake-mode")

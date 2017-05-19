@@ -25,6 +25,8 @@
 (load-file "~/.emacs.d/rc/google.el")
 (load-file "~/.emacs.d/rc/rust.el")
 (load-file "~/.emacs.d/rc/org-mode.el")
+(load-file "~/.emacs.d/rc/helm.el")
+
 ;;(load-file "~/.emacs.d/rc/jedi.el")
 
 (setq save-interprogram-paste-before-kill t)
