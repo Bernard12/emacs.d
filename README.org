@@ -1,5 +1,6 @@
 * emacsConfig
   Its my emacs config
+
 * Dependencies
 ** Appereance
    rainbow-delimiters
@@ -46,3 +47,4 @@
    super-save
 * Useful links
   [[http://reangdblog.blogspot.com/2015/04/emacs-ide-rust.html][Rust configuration]]
+
