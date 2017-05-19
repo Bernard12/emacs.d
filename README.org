@@ -1,12 +1,11 @@
 * emacsConfig
   Its my emacs config
-
 * Dependencies
 ** Appereance
-   rainbow-delimiters
-   rainbow-identifiers
+   - rainbow-delimiters
+   - rainbow-identifiers
 ** Use-package
-   use-package
+   - use-package
 ** Cmake tools
    cmake-ide
    cmake-font-lock
