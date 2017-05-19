@@ -25,7 +25,7 @@
 (depends-on "dashboard")
 (depends-on "flycheck")
 (depends-on "flycheck-irony")
-(depends-on "flycheck-rusts")
+(depends-on "flycheck-rust")
 (depends-on "google-translate")
 (depends-on "magit")
 (depends-on "pomidor")
