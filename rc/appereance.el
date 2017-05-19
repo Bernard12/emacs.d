@@ -28,13 +28,13 @@
 (use-package super-save)
 
 (use-package rainbow-delimiters
-    :config
+  :config
   (add-hook 'c++-mode-hook 'turnRainbow)
   (add-hook 'c-mode-hook 'turnRainbow)
   (add-hook 'emacs-lisp-mode-hook 'turnRainbow))
 
 (use-package rainbow-identifiers
-    :config
+  :config
   (add-hook 'c++-mode-hook 'turnRainbow)
   (add-hook 'c-mode-hook 'turnRainbow)
   (add-hook 'python-mode-hook 'turnRainbow)

@@ -10,7 +10,6 @@
 (use-package bs
   :bind (("C-c p" . bs-show)))
 
-
 (defun reloadInit()
   (interactive)
   (load-file "~/.emacs.d/init.el"))
