@@ -27,3 +27,11 @@
   (insert "(depends-on \"")
   (end-of-line)
   (insert "\")"))
+
+(defun commentReg(start end)
+  (interactive "r")
+  (save-excursion
+  (goto-char start)
+  (insert "/*\n")
+  (goto-char (+ end 2))
+  (insert "\n*/")))

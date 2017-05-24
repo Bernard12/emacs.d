@@ -30,3 +30,5 @@
 (depends-on "yasnippet")
 (depends-on "super-save")
 (depends-on "helm")
+(depends-on "smart-tab")
+(depends-on "origami")
