@@ -2,7 +2,8 @@
 (require 'whitespace)
 (require 'use-package)
 
-(menu-bar-mode 1)
+(menu-bar-mode 0)
+(tool-bar-mode 0)
 (setq tab-width 4)
 (setq-default indent-tabs-mode nil)
 (column-number-mode 1)
