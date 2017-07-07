@@ -41,11 +41,11 @@
  '(custom-enabled-themes (quote (ample-flat)))
  '(custom-safe-themes
    (quote
-    ("ed317c0a3387be628a48c4bbdb316b4fa645a414838149069210b66dd521733f" default)))
+    ("3ff96689086ebc06f5f813a804f7114195b7c703ed2f19b51e10026723711e33" "2b043965fbcc5b3377b2e256ecb6d4eba7ce4240bb262149d4d9eac97583e4c5" "ed317c0a3387be628a48c4bbdb316b4fa645a414838149069210b66dd521733f" default)))
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (helm yasnippet use-package tangotango-theme super-save smart-tab restclient rainbow-mode rainbow-identifiers rainbow-delimiters racer pomidor magithub jedi irony-eldoc google-translate flycheck-rust flycheck-irony dracula-theme dashboard company-racer company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
+    (dakrone-theme helm yasnippet use-package tangotango-theme super-save smart-tab restclient rainbow-mode rainbow-identifiers rainbow-delimiters racer pomidor magithub jedi irony-eldoc google-translate flycheck-rust flycheck-irony dracula-theme dashboard company-racer company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

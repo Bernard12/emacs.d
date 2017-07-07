@@ -32,3 +32,4 @@
 (depends-on "helm")
 (depends-on "smart-tab")
 (depends-on "origami")
+(depends-on "restclient")
