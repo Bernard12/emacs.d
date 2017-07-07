@@ -19,4 +19,5 @@
   (push 'company-jedi company-backends)
   (push 'company-go company-backends)
   (push 'company-racer company-backends)
-  (push 'company-irony-c-headers company-backends))
+  (push 'company-irony-c-headers company-backends)
+  (push 'company-restclient company-backends))
