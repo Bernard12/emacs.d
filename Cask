@@ -14,7 +14,6 @@
 (depends-on "company-jedi")
 (depends-on "company-racer")
 (depends-on "company-go")
-(depends-on "company-restclient")
 (depends-on "irony")
 (depends-on "irony-eldoc")
 (depends-on "jedi")
