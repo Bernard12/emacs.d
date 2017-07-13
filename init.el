@@ -26,7 +26,7 @@
 (load-file "~/.emacs.d/rc/helm.el")
 (load-file "~/.emacs.d/rc/origami.el")
 (load-file "~/.emacs.d/rc/restclient.el")
-;;(load-file "~/.emacs.d/rc/jedi.el")
+(load-file "~/.emacs.d/rc/jedi.el")
 
 (setq save-interprogram-paste-before-kill t)
 (setq-default c-basic-offset 4)
@@ -44,7 +44,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (company-restclient gruber-darker-theme helm yasnippet use-package tangotango-theme super-save smart-tab restclient rainbow-mode rainbow-identifiers rainbow-delimiters racer pomidor magithub jedi irony-eldoc google-translate flycheck-rust flycheck-irony dracula-theme dashboard company-racer company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
+    (company-restclient cl-lib know-your-http-well gruber-darker-theme helm yasnippet use-package tangotango-theme super-save smart-tab restclient rainbow-mode rainbow-identifiers rainbow-delimiters racer pomidor magithub jedi irony-eldoc google-translate flycheck-rust flycheck-irony dracula-theme dashboard company-racer company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

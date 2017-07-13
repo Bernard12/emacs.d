@@ -33,3 +33,4 @@
 (depends-on "smart-tab")
 (depends-on "origami")
 (depends-on "restclient")
+(depends-on "know-your-http-well")
