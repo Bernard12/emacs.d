@@ -10,7 +10,6 @@
 (use-package company-jedi)
 (use-package company-go)
 
-
 (use-package company
   :bind (("C-c C-/" . company-complete))
   :config
