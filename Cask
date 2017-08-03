@@ -34,3 +34,7 @@
 (depends-on "origami")
 (depends-on "restclient")
 (depends-on "know-your-http-well")
+(depends-on "cl-lib")
+(depends-on "js2-highlight-vars")
+(depends-on "js2-mode")
+(depends-on "js2-refactor")
