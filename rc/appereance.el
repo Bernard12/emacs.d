@@ -8,6 +8,8 @@
 (setq-default indent-tabs-mode nil)
 (column-number-mode 1)
 
+(setq shell-file-name "zsh")
+
 (use-package whitespace
   :config
   (global-whitespace-mode 1)

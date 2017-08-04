@@ -1,15 +1,13 @@
-;;(rc/require 'company)
-;(rc/install 'company)
-;(rc/install 'company-go)
-;(rc/install 'company-irony)
-;(rc/install 'company-irony-c-headers)
-;(rc/install 'company-jedi)
-
 (use-package company-irony)
 (use-package company-irony-c-headers)
 (use-package company-jedi)
 (use-package company-go)
 (use-package company-web)
+
+(use-package company-tern
+  :ensure t
+  :config (progn
+            (add-to-list 'company-backends 'company-tern)))
 
 (use-package company
   :bind (("C-c C-/" . company-complete))
@@ -23,5 +21,4 @@
   (push 'company-irony-c-headers company-backends)
   (push 'company-web company-backends)
   (push 'company-web-html company-backends)
-  ;;(push 'company-restclient company-backend))
   (add-to-list 'company-backends 'company-restclient))
