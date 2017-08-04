@@ -44,7 +44,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (js2-highlight-vars js2-mode js2-refactor company-restclient cl-lib know-your-http-well gruber-darker-theme helm yasnippet use-package tangotango-theme super-save smart-tab restclient rainbow-mode rainbow-identifiers rainbow-delimiters racer pomidor magithub irony-eldoc google-translate flycheck-rust flycheck-irony dracula-theme dashboard company-racer company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
+    (company-web js2-highlight-vars js2-mode js2-refactor company-restclient cl-lib know-your-http-well gruber-darker-theme helm yasnippet use-package tangotango-theme super-save smart-tab restclient rainbow-mode rainbow-identifiers rainbow-delimiters racer pomidor magithub irony-eldoc google-translate flycheck-rust flycheck-irony dracula-theme dashboard company-racer company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -9,6 +9,7 @@
 (use-package company-irony-c-headers)
 (use-package company-jedi)
 (use-package company-go)
+(use-package company-web)
 
 (use-package company
   :bind (("C-c C-/" . company-complete))
@@ -20,5 +21,7 @@
   (push 'company-go company-backends)
   (push 'company-racer company-backends)
   (push 'company-irony-c-headers company-backends)
+  (push 'company-web company-backends)
+  (push 'company-web-html company-backends)
   ;;(push 'company-restclient company-backend))
   (add-to-list 'company-backends 'company-restclient))
