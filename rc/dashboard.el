@@ -2,5 +2,5 @@
 ;;(dashboard-setup-startup-hook)
 
 (use-package dashboard
-  :config
-  (dashboard-setup-startup-hook))
+  :config)
+  ;(dashboard-setup-startup-hook))

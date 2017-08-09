@@ -1,5 +1,5 @@
 ;; Added by Package.el.  This must come before configurations of
-;; installed packages.  Don't delete this line.  If you don't want Important: Avoid Mountain Crossit,
+;; installed packages.  Don't delete this line.  If you don't want Important: Avoid Mountain Cr<div id="example">
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 
@@ -12,7 +12,6 @@
 
 (load-file "~/.emacs.d/rc/rc.el")
 (load-file "~/.emacs.d/rc/appereance.el")
-(load-file "~/.emacs.d/rc/tern.el")
 (load-file "~/.emacs.d/rc/company-mode.el")
 (load-file "~/.emacs.d/rc/flycheck.el")
 (load-file "~/.emacs.d/rc/ido.el")
@@ -27,6 +26,7 @@
 (load-file "~/.emacs.d/rc/helm.el")
 (load-file "~/.emacs.d/rc/origami.el")
 (load-file "~/.emacs.d/rc/restclient.el")
+(load-file "~/.emacs.d/rc/web-mode.el")
 
 
 (setq save-interprogram-paste-before-kill t)
@@ -45,7 +45,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (company-tern company-web js2-highlight-vars js2-mode js2-refactor company-restclient cl-lib know-your-http-well gruber-darker-theme helm yasnippet use-package tangotango-theme super-save smart-tab restclient rainbow-mode rainbow-identifiers rainbow-delimiters racer pomidor magithub irony-eldoc google-translate flycheck-rust flycheck-irony dracula-theme dashboard company-racer company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
+    (web-mode company-tern company-web js2-highlight-vars js2-mode js2-refactor company-restclient cl-lib know-your-http-well gruber-darker-theme helm yasnippet use-package tangotango-theme super-save smart-tab restclient rainbow-mode rainbow-identifiers rainbow-delimiters racer pomidor magithub irony-eldoc google-translate flycheck-rust flycheck-irony dracula-theme dashboard company-racer company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
