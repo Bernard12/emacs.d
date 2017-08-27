@@ -4,6 +4,8 @@
   (setq buffer-face-mode-face '(:height 100))
   (buffer-face-mode))
 
-(use-package helm
-  :bind (("M-x" . helm-M-x)
-         ("C-c h" . helm-find)))
+;; change to ivy?
+;(use-package helm
+;  :ensure t
+;  :bind (("M-x" . helm-M-x)
+;         ("C-c h" . helm-find)))

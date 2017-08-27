@@ -1,4 +1,8 @@
-(use-package cmake-font-lock)
-(use-package cmake-ide)
-(use-package cmake-mode)
-(use-package cmake-project)
+(use-package cmake-font-lock
+  :ensure t)
+(use-package cmake-ide
+  :ensure t)
+(use-package cmake-mode
+  :ensure t)
+(use-package cmake-project
+  :ensure t)

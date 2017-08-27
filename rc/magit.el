@@ -1,6 +1,5 @@
-(require 'magit)
-
 (use-package magit
+  :ensure t
   :bind (("C-c C-g" . magit-status)
          ("C-c q" . magit-commit-popup)
          ("C-c l" . magit-commit-add-log)

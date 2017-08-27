@@ -9,6 +9,7 @@
 
 
 (use-package org
+  :ensure t
   :bind (
          ("C-c C-x C-s" . ivn/mark-done-and-archive)
          ("C-c a" . org-agenda)
@@ -21,5 +22,4 @@
   (setq org-index-file (org-file-path "index.org"))
   (setq org-archive-location
         (concat (org-file-path "archive.org") "::* From %s"))
-  
   )

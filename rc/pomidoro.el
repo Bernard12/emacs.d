@@ -1,2 +1,2 @@
-(require 'pomidor)
-(use-package pomidor)
+(use-package pomidor
+  :ensure t)

@@ -1,10 +1,15 @@
 (require 'package)
-(require 'cask "~/.cask/cask.el")
+(setq package-enable-at-startup nil)
 
-(cask-initialize)
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/"))
+
 (package-initialize)
 
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+;; manual install use-package addon
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
 
 (setq user-full-name "Ivan")
 (setq user-mail-address "ivnsimakhin@gmail.com")

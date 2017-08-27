@@ -1,8 +1,13 @@
-(use-package company-irony)
-(use-package company-irony-c-headers)
-(use-package company-jedi)
-(use-package company-go)
-(use-package company-web)
+(use-package company-irony
+  :ensure t)
+(use-package company-irony-c-headers
+  :ensure t)
+(use-package company-jedi
+  :ensure t)
+(use-package company-go
+  :ensure t)
+(use-package company-web
+  :ensure t)
 
 ;(use-package company-tern
 ;  :ensure t
@@ -10,6 +15,7 @@
 ;            (add-to-list 'company-backends 'company-tern)))
 
 (use-package company
+  :ensure t
   :bind (("C-c C-/" . company-complete))
   :config
   (global-company-mode)

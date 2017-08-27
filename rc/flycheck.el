@@ -1,5 +1,4 @@
 ;;; Code:
-(require 'flycheck)
 (defun enable-flycheck()
   (interactive)
   (flycheck-mode 1))
@@ -20,6 +19,7 @@
   (flycheck-select-checker 'c/c++-clang))
 
 (use-package flycheck
+  :ensure t
   :config
   (add-hook 'c++-mode-hook 'enable-flycheck)
   (add-to-list 'display-buffer-alist

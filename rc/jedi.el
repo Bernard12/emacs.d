@@ -1,6 +1,5 @@
-(require 'jedi)
-
 (use-package jedi
+  :ensure t
   :init
   ;;(setq jedi:server-command
   ;;      '("~/.emacs.d/elpa/jedi-core-20170121.610/jediepcserver.py"))
