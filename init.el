@@ -28,6 +28,7 @@
 (load-file "~/.emacs.d/rc/origami.el")
 (load-file "~/.emacs.d/rc/restclient.el")
 (load-file "~/.emacs.d/rc/web-mode.el")
+(load-file "~/.emacs.d/rc/gdb.el")
 
 (setq save-interprogram-paste-before-kill t)
 (setq-default c-basic-offset 4)
@@ -39,7 +40,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (helm-ag yasnippet web-mode use-package super-save smart-tab rainbow-identifiers rainbow-delimiters racer origami magit irony-eldoc helm gruvbox-theme gruber-darker-theme google-translate flycheck dashboard counsel company-web company-rtags company-restclient company-racer company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
+    (shackle helm-ag yasnippet web-mode use-package super-save smart-tab rainbow-identifiers rainbow-delimiters racer origami magit irony-eldoc helm gruvbox-theme gruber-darker-theme google-translate flycheck dashboard counsel company-web company-rtags company-restclient company-racer company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
