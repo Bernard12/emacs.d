@@ -1,4 +1,8 @@
 ;;; Code
+
+(use-package flycheck-clang-tidy
+  :ensure t)
+
 (defun setGCCchecker()
   (flycheck-select-checker 'c/c++-gcc))
 
@@ -7,10 +11,11 @@
 
 (defun c-init-fun ()
   (flycheck-mode 1)
-  (flycheck-select-checker 'c/c++-gcc)
-  (setq flycheck-gcc-language-standard "c++11"))
+  (flycheck-select-checker 'c/c++-clang)
+  (setq flycheck-clang-language-standard "c++14"))
 
 (defun py-init()
+  (setq python-indent-offset 4)
   (flycheck-mode 1)
   (flycheck-select-checker 'python-flake8))
 

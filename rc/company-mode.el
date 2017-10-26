@@ -41,3 +41,8 @@
 
 (use-package company-racer
   :ensure t)
+
+(use-package company-lua
+  :ensure t
+  :config
+  (push 'company-lua company-backends))

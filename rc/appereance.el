@@ -34,11 +34,6 @@
   :ensure t
   :bind (("C-c p" . bs-show)))
 
-(defun turnRainbow()
-  (interactive)
-  (rainbow-delimiters-mode 1)
-  (rainbow-identifiers-mode 1))
-
 (use-package super-save
   :ensure t
   :config
