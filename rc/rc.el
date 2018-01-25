@@ -2,8 +2,7 @@
 (setq package-enable-at-startup nil)
 
 (setq package-archives
-             '(("melpa" . "https://melpa.org/packages/")
-               ("gnu" . "https://elpa.gnu.org/packages/")))
+      '(("melpa" . "https://melpa.org/packages/")))
 
 (package-initialize)
 
@@ -18,3 +17,12 @@
 (defun reloadInit()
   (interactive)
   (load-file "~/.emacs.d/init.el"))
+
+;;; Some useful packages
+(use-package try
+  :ensure t)
+
+(use-package which-key
+  :ensure t
+  :config (which-key-mode))
+
