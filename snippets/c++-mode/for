@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: for (...: ...) { ... }
-# key: foriter
+# key: forit
 # --
 for ($1 $2: $3) {
 std::cout << $2 << ' ';
