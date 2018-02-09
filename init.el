@@ -30,7 +30,6 @@
 (load-file "~/.emacs.d/rc/web-mode.el")
 (load-file "~/.emacs.d/rc/gdb.el")
 (load-file "~/.emacs.d/rc/ess.el")
-(load-file "~/.emacs.d/rc/auctex.el")
 
 (setq save-interprogram-paste-before-kill t)
 (setq-default c-basic-offset 4)
