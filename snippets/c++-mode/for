@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: for (...: ...) { ... }
-# key: forit
+# name: for (type a;condition;eval) { ... }
+# key: fri
 # --
-for ($1 $2: $3) {
-std::cout << $2 << ' ';
+for (int $1 = 0;$1 < $2;$1++) {
+    
 }

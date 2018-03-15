@@ -21,6 +21,8 @@
 
 (use-package company-jedi
   :ensure t
+  :init
+  (setq company-async-wait 3)
   :config
   (push 'company-jedi company-backends))
 
@@ -39,10 +41,7 @@
   :config
   (push 'company-restclient company-backends))
 
-(use-package company-racer
-  :ensure t)
-
-(use-package company-lua
+(use-package slime-company
   :ensure t
   :config
-  (push 'company-lua company-backends))
+  (push 'company-slime company-backends))

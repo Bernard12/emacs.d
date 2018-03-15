@@ -30,7 +30,7 @@
 (load-file "~/.emacs.d/rc/web-mode.el")
 (load-file "~/.emacs.d/rc/gdb.el")
 (load-file "~/.emacs.d/rc/ess.el")
-(load-file "~/.emacs.d/rc/auctex.el")
+(load-file "~/.emacs.d/rc/slime.el")
 
 (setq save-interprogram-paste-before-kill t)
 (setq-default c-basic-offset 4)
@@ -44,7 +44,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (which-key auctex ess-R-data-view ess clang-format company-lua flycheck-clang-tidy ein shackle helm-ag yasnippet web-mode use-package super-save smart-tab rainbow-identifiers rainbow-delimiters racer origami magit irony-eldoc helm gruvbox-theme gruber-darker-theme google-translate flycheck dashboard counsel company-web company-rtags company-restclient company-racer company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
+    (slime-company slime which-key auctex ess-R-data-view ess clang-format company-lua flycheck-clang-tidy ein shackle helm-ag yasnippet web-mode use-package super-save smart-tab rainbow-identifiers rainbow-delimiters racer origami magit irony-eldoc helm gruvbox-theme gruber-darker-theme google-translate flycheck dashboard counsel company-web company-rtags company-restclient company-racer company-jedi company-irony-c-headers company-irony company-go cmake-project cmake-ide cmake-font-lock))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
