@@ -6,12 +6,15 @@
 
 ;; change to ivy?
 ;; Answer: helm > ivy, swiper is good counsel too
+(use-package swiper
+  :ensure t
+  :bind (("C-s" . swiper)))
+
 (use-package helm
   :ensure t
   :bind (("M-x" . helm-M-x)
-         ("C-c h" . helm-find)
          ("C-x C-f" . helm-find-files)))
 
 (use-package helm-ag
   :ensure t
-  :bind (("C-s" . helm-do-ag-this-file)))
+  :bind (("C-c C-s" . helm-do-grep-ag)))

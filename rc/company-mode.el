@@ -5,7 +5,7 @@
 
 (use-package company
   :ensure t
-  :bind (("C-c C-/" . company-complete))
+  :bind (("C-c C-_" . company-complete))
   :config
   (global-company-mode))
 

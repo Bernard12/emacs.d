@@ -1,4 +1,8 @@
-(use-package 'go-eldoc
+(use-package go-mode
   :ensure t
   :config
-  (add-hook 'go-mode-hook 'go-eldoc-setup))
+  (setq-default tab-width 4)
+  (setq indent-tabs-mode nil))
+
+
+
