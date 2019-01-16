@@ -1,2 +1,4 @@
 (use-package 'clang-format
-  :ensure t)
+  :ensure t
+  :defer t
+)

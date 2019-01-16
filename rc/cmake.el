@@ -1,8 +1,16 @@
 (use-package cmake-font-lock
-  :ensure t)
+  :ensure t
+  :defer t
+  )
 (use-package cmake-ide
-  :ensure t)
+  :ensure t
+  :defer t
+  )
 (use-package cmake-mode
-  :ensure t)
+  :ensure t
+  :defer t
+  )
 (use-package cmake-project
-  :ensure t)
+  :ensure t
+  :defer t
+  )

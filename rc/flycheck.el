@@ -21,6 +21,7 @@
 
 (use-package flycheck
   :ensure t
+  :defer t
   :config
   (add-hook 'c++-mode-hook 'c-init-fun)
   (add-hook 'c-mode-hook 'c-init-fun)

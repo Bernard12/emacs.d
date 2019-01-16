@@ -1,2 +1,3 @@
 (use-package rtags
-  :ensure t)
+  :ensure t
+  :defer t)

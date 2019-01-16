@@ -1,5 +1,9 @@
 (use-package ess
-  :ensure t)
+  :ensure t
+  :defer t
+)
 
 (use-package ess-R-data-view
-  :ensure t)
+  :ensure t
+  :defer t
+)
