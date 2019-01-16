@@ -30,7 +30,6 @@
 (load-file "~/.emacs.d/rc/web-mode.el")
 (load-file "~/.emacs.d/rc/gdb.el")
 (load-file "~/.emacs.d/rc/ess.el")
-(load-file "~/.emacs.d/rc/slime.el")
 (load-file "~/.emacs.d/rc/evil.el")
 (load-file "~/.emacs.d/rc/gomode.el")
 (load-file "~/.emacs.d/rc/projectile.el")
