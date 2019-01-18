@@ -27,3 +27,8 @@
   :ensure t
   :config (which-key-mode))
 
+(use-package try
+  :ensure t)
+
+(use-package popup
+  :ensure t)
