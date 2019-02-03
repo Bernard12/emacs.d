@@ -19,6 +19,8 @@
   (interactive)
   (load-file "~/.emacs.d/init.el"))
 
+(setq python-shell-interpreter "python3")
+
 ;;; Some useful packages
 (use-package try
   :ensure t)
