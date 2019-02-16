@@ -17,7 +17,8 @@
 (defun py-init()
   (setq python-indent-offset 4)
   (flycheck-mode 1)
-  (flycheck-select-checker 'python-flake8))
+  (flycheck-select-checker 'python-pylint)
+)
 
 (use-package flycheck
   :ensure t
