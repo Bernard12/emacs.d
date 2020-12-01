@@ -1,7 +1,9 @@
 ;;; Code
 
 (use-package flycheck-clang-tidy
-  :ensure t)
+  :ensure t
+  :defer t
+)
 
 (defun setGCCchecker()
   (flycheck-select-checker 'c/c++-gcc))

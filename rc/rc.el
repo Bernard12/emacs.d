@@ -5,7 +5,7 @@
              '(("melpa" . "https://melpa.org/packages/")
                ("gnu" . "https://elpa.gnu.org/packages/")))
 
-(package-initialize)
+; (package-initialize)
 
 ;; manual install use-package addon
 (unless (package-installed-p 'use-package)
